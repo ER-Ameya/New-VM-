@@ -2,7 +2,7 @@
 
 2. Create a new virtual environment using the command python -m venv env.
 
-3. Activate the virtual environment using the command source env/bin/activate on Linux or env\Scripts\activate on Windows.
+3. Activate the virtual environment using the command source env/bin/activate on Linux or env\Scripts\activate on Windows. Navigate inside the project
 
 4. Install the required dependencies using the command pip install -r requirements.txt.
 
