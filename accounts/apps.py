@@ -4,7 +4,6 @@
 # class AccountsConfig(AppConfig):
 #     default_auto_field = 'django.db.models.BigAutoField'
 #     name = 'accounts'
-    
+
 #     def ready(self):
-#         # import signal handlers
-#         # import accounts.signals.handlers
+#         import accounts.signals
