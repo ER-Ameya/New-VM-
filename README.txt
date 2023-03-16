@@ -6,7 +6,7 @@
 
 4. add project from the git to the folder 
 
-5. Install the required dependencies using the command pip install -r requirements.txt 
+5. Install the required dependencies using the command pip install -r requirement.txt 
 
 6. Create the database tables by running the command python manage.py makemigrations / migrate.
 
