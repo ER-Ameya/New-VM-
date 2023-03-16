@@ -15,13 +15,3 @@ class UserProfile(models.Model):
         print(self.user.usename)
         return self.user.username
     
-    # def save(self, *args, **kwargs):
-    #     """
-    #     Override the save method to add new users to the "user" group by default.
-    #     """
-    #     is_new_user = self.pk is None  # Check if the object is a new user being created
-    #     super().save(*args, **kwargs)
-    #     if is_new_user:
-    #         group = Group.objects.get(name='user')
-    #         self.user.groups.add(group)
-    #         self.user.save()
